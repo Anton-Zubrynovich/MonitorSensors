@@ -30,6 +30,36 @@ CREATE DATABASE monitor_sensors
 ## Database migration (Docker):
 ### When initializing containers it will create database and it's tables with default values (For migration we use Liquibase)
 
+## Default values:
+### Types:
+- Pressure
+    - id = 1
+    - typeName = Pressure
+- Voltage
+    - id = 2
+    - typeName = Voltage
+- Temperature
+    - id = 3
+    - typeName = Temperature
+- Humidity
+    - id = 4
+    - typeName = Humidity
+ 
+### Units:
+- bar
+    - id = 1
+    - unitName = bar
+- voltage
+    - id = 2
+    - unitName = voltage
+- °С
+    - id = 3
+    - unitName = °С
+- %
+    - id = 4
+    - unitName = %
+
+
 # How to run
 
 1. Clone/Download the repository.
