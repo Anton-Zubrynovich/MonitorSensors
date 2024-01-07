@@ -82,6 +82,10 @@ CREATE DATABASE monitor_sensors
 
 6.When initializing, application will create monitor_sensors database, create tables if they not exist and fill users(password in database is byCrypted), roles, types and units in this database.
 
+## Initialized and working docker containers:
+
+![image](https://github.com/Anton-Zubrynovich/MonitorSensors/assets/70905486/8f7b86c6-b850-4255-937f-c1a06c2ef45c)
+
 
 # Authorization and Usage
 
