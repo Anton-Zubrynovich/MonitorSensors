@@ -200,7 +200,7 @@ And GET all sensors in original way (needed to see json body if we need to perfo
 
 ![Аннотация 2024-01-07 231634](https://github.com/Anton-Zubrynovich/MonitorSensors/assets/70905486/68a168dd-7649-4cbb-8816-fef81b59feed)
 
-## If we want to see our database and it's table contect:
+## If we want to see our database and it's table content (while using docker):
 
 Click link below:
 
