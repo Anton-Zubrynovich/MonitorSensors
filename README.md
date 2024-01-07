@@ -11,8 +11,24 @@
 * Docker Desktop
 * Swagger
 
-## Database migration
-### When initializing project or containers it will create database and it's tables with default values (For migration we use Liquibase)
+## Database migration (local):
+
+### Create PostgreSQL table like this:
+```sql
+CREATE DATABASE monitor_sensors
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'Russian_Russia.1251'
+    LC_CTYPE = 'Russian_Russia.1251'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1
+    IS_TEMPLATE = False;
+```
+### Then on initialization application will create tables and fill them with default values
+
+## Database migration (Docker):
+### When initializing containers it will create database and it's tables with default values (For migration we use Liquibase)
 
 # How to run
 
