@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.24.xsd">
+
+    <changeSet  author="admin"  id="1704615924404-11">
+        <insert
+                tableName="types">
+            <column  name="type_id"  value="1"/>
+            <column  name="type_name"  value="Pressure"/>
+        </insert>
+        <insert
+                tableName="types">
+            <column  name="type_id"  value="2"/>
+            <column  name="type_name"  value="Voltage"/>
+        </insert>
+        <insert
+                tableName="types">
+            <column  name="type_id"  value="3"/>
+            <column  name="type_name"  value="Temperature"/>
+        </insert>
+        <insert
+                tableName="types">
+            <column  name="type_id"  value="4"/>
+            <column  name="type_name"  value="Humidity"/>
+        </insert>
+
+    </changeSet>
+</databaseChangeLog>

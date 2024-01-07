@@ -1,0 +1,22 @@
+package antonzubrynovich.monitor_sensors.util;
+
+import jakarta.validation.Constraint;
+import jakarta.validation.Payload;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+
+@Target({ElementType.TYPE})
+@Retention(RetentionPolicy.RUNTIME)
+@Constraint(validatedBy = {RangeValidator.class})
+public @interface Range {
+
+    String message() default "to must be greater than from";
+    Class<?>[] groups() default {};
+    Class<? extends Payload>[] payload() default {};
+
+}
+

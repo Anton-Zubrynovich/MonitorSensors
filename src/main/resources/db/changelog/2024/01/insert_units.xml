@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.24.xsd">
+    <changeSet  author="admin"  id="1704615924404-12">
+        <insert
+                tableName="units">
+            <column  name="unit_id"  value="1"/>
+            <column  name="unit_name"  value="bar"/>
+        </insert>
+        <insert
+                tableName="units">
+            <column  name="unit_id"  value="2"/>
+            <column  name="unit_name"  value="voltage"/>
+        </insert>
+        <insert
+                tableName="units">
+            <column  name="unit_id"  value="3"/>
+            <column  name="unit_name"  value="°С"/>
+        </insert>
+        <insert
+                tableName="units">
+            <column  name="unit_id"  value="4"/>
+            <column  name="unit_name"  value="%"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
