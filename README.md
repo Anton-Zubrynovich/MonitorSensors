@@ -84,7 +84,17 @@ CREATE DATABASE monitor_sensors
 
 ## Initialized and working docker containers:
 
-![image](https://github.com/Anton-Zubrynovich/MonitorSensors/assets/70905486/8f7b86c6-b850-4255-937f-c1a06c2ef45c)
+![image](https://github.com/Anton-Zubrynovich/MonitorSensors/assets/70905486/b4dadebf-d592-40d6-a66b-0ce043d664a2)
+
+## Images of containers:
+
+![image](https://github.com/Anton-Zubrynovich/MonitorSensors/assets/70905486/a47004a0-3cca-4a6a-b2d5-3bed0ffea760)
+
+
+## Volumes:
+
+![image](https://github.com/Anton-Zubrynovich/MonitorSensors/assets/70905486/1b319484-da93-4209-9b57-45362eecbb4e)
+
 
 
 # Authorization and Usage
