@@ -1,13 +1,17 @@
+# MonitorSensors
 # Spring Boot Restful Web Service with Spring Security Basic Authorization, Swagger Documentation and Docker Container creation
 
 
 ## Technologies
 * Java 17 (JDK 17 required)
 * Spring Boot 3, Spring Security 6
-* PostgreSQL
+* PostgreSQLб, Liquibase
 * pgAdmin4, Postman
 * Docker Desktop
 * Swagger
+
+## Database migration
+### When initializing project or containers it will create database and it's tables with default values (For migration we use Liquibase)
 
 # How to run
 
