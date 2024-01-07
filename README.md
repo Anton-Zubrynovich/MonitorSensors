@@ -120,7 +120,7 @@ And GET all sensors request:
 
 ![Аннотация 2024-01-07 231428](https://github.com/Anton-Zubrynovich/MonitorSensors/assets/70905486/bd4ec8e5-c833-4aca-bedf-ec6677aa3f42)
 
-And Get all sensors in original way (needed to see json body if we need to perfoem POST or PUT requests):
+And GET all sensors in original way (needed to see json body if we need to perfoem POST or PUT requests):
 
 ![Аннотация 2024-01-07 231634](https://github.com/Anton-Zubrynovich/MonitorSensors/assets/70905486/68a168dd-7649-4cbb-8816-fef81b59feed)
 
