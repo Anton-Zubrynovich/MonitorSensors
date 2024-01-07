@@ -93,10 +93,12 @@ Login form in swagger and browser:
 For authorization in postman follow these steps:
 
 Choose authorization method:
-![postmanA](https://github.com/Anton-Zubrynovich/MonitorSensors/assets/70905486/a623597b-77d9-4870-b29c-3200e0348f8e)
-![postmanB](https://github.com/Anton-Zubrynovich/MonitorSensors/assets/70905486/1835667d-35e4-45f6-9f59-128024ccb99a)
+
+![1](https://github.com/Anton-Zubrynovich/MonitorSensors/assets/70905486/37bf3148-5923-46fb-9aa9-1bd5c18bb90b)
+
+![2](https://github.com/Anton-Zubrynovich/MonitorSensors/assets/70905486/54c73408-eea4-4705-b3ab-169b74157c89)
 Insert credentials and press send:
-![postmanC](https://github.com/Anton-Zubrynovich/MonitorSensors/assets/70905486/c4bb1ea8-361f-4416-9029-beeb616b108c)
+![3](https://github.com/Anton-Zubrynovich/MonitorSensors/assets/70905486/f27aba13-5523-4870-a2ec-27b6de927d2f)
 
 
 # What we can do with our Application
