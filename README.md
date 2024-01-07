@@ -13,14 +13,7 @@
 
 ## Database migration (local):
 
-## Register Server in pgAdmin:
-
-### Username: postgres
-### Password: username
-
-![image](https://github.com/Anton-Zubrynovich/MonitorSensors/assets/70905486/77c4775b-2d4b-46ff-b0ea-0c6ba07315ea)
-
-### it will create PostgreSQL database like this:
+### Create PostgreSQL database like this:
 ```sql
 CREATE DATABASE monitor_sensors
     WITH
@@ -32,6 +25,14 @@ CREATE DATABASE monitor_sensors
     CONNECTION LIMIT = -1
     IS_TEMPLATE = False;
 ```
+
+## Register Server in pgAdmin and connect database to server:
+
+### Username: postgres
+### Password: username
+
+![image](https://github.com/Anton-Zubrynovich/MonitorSensors/assets/70905486/77c4775b-2d4b-46ff-b0ea-0c6ba07315ea)
+
 ### Then on initialization application will create tables and fill them with default values
 
 ## Database migration (Docker):
