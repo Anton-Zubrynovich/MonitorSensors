@@ -5,8 +5,9 @@
 ## Technologies
 * Java 17 (JDK 17 required)
 * Spring Boot 3, Spring Security 6
-* PostgreSQLб, Liquibase
+* PostgreSQL
 * pgAdmin4, Postman
+* Liquibase
 * Docker Desktop
 * Swagger
 
