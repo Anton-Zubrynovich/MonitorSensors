@@ -7,6 +7,7 @@
 * PostgreSQL
 * pgAdmin4, Postman
 * Docker Desktop
+* Swagger
 
 # How to run
 
