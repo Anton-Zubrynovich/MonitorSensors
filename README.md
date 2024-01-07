@@ -13,7 +13,14 @@
 
 ## Database migration (local):
 
-### Create PostgreSQL table like this:
+## Register Server in pgAdmin:
+
+### Username: postgres
+### Password: username
+
+![image](https://github.com/Anton-Zubrynovich/MonitorSensors/assets/70905486/77c4775b-2d4b-46ff-b0ea-0c6ba07315ea)
+
+### it will create PostgreSQL database like this:
 ```sql
 CREATE DATABASE monitor_sensors
     WITH
