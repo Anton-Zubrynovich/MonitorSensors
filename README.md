@@ -26,13 +26,6 @@ CREATE DATABASE monitor_sensors
     IS_TEMPLATE = False;
 ```
 
-## Register Server in pgAdmin and connect database to server:
-
-### Username: postgres
-### Password: username
-
-![image](https://github.com/Anton-Zubrynovich/MonitorSensors/assets/70905486/77c4775b-2d4b-46ff-b0ea-0c6ba07315ea)
-
 ### Then on initialization application will create tables and fill them with default values
 
 ## Database migration (Docker):
@@ -67,6 +60,14 @@ CREATE DATABASE monitor_sensors
     - id = 4
     - unitName = %
 
+
+## If you want to view database in pgAdmin 
+### Register Server in pgAdmin and connect database to server:
+
+### Username: postgres
+### Password: username
+
+![image](https://github.com/Anton-Zubrynovich/MonitorSensors/assets/70905486/77c4775b-2d4b-46ff-b0ea-0c6ba07315ea)
 
 # How to run
 
